@@ -58,6 +58,7 @@ namespace OnlyPans
             this.PanaderoBtn.TabIndex = 2;
             this.PanaderoBtn.Text = "Módulo Empleados";
             this.PanaderoBtn.UseVisualStyleBackColor = true;
+            this.PanaderoBtn.Click += new System.EventHandler(this.PanaderoBtn_Click);
             // 
             // pictureBox3
             // 

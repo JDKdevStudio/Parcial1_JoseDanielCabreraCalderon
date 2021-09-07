@@ -33,5 +33,13 @@ namespace OnlyPans
                 adminPanel.ShowDialog();
              }
         }
+
+        private void PanaderoBtn_Click(object sender, EventArgs e)
+        {
+            using (PanaderoPanel panaderoPanel = new PanaderoPanel())
+            {
+                panaderoPanel.ShowDialog();
+            }
+        }
     }
 }
