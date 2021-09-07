@@ -73,6 +73,16 @@ namespace OnlyPans.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap deco {
+            get {
+                object obj = ResourceManager.GetObject("deco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap empleadof {
             get {
                 object obj = ResourceManager.GetObject("empleadof", resourceCulture);
@@ -86,6 +96,26 @@ namespace OnlyPans.Properties {
         internal static System.Drawing.Bitmap panadero {
             get {
                 object obj = ResourceManager.GetObject("panadero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap panmodelo {
+            get {
+                object obj = ResourceManager.GetObject("panmodelo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Title {
+            get {
+                object obj = ResourceManager.GetObject("Title", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

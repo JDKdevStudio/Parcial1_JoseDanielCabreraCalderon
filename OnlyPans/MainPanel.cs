@@ -17,5 +17,21 @@ namespace OnlyPans
         {
             InitializeComponent();
         }
+
+        private void MainPanel_Load(object sender, EventArgs e)
+        {
+            if (UserType == "panadero")
+            {
+                AdminBtn.Visible = false;
+            }
+        }
+
+        private void AdminBtn_Click(object sender, EventArgs e)
+        {
+            using (AdminPanel adminPanel = new AdminPanel())
+            {
+                adminPanel.ShowDialog();
+             }
+        }
     }
 }
